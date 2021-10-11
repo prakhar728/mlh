@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+}
+
+.heading {
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.currentPlayer{
+    font-size:20px;
+    color:black;
+    text-transform:uppercase;
+    text-align: center;
+    padding:10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.board {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 276px;
+    width: 330px;
+    background: blue;
+    margin: 20px;
+}
+
+.board div {
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    border-radius: 20px
+}
+
+.square {
+    background: white;
+}
+
+.taken {
+    /*background:red !important */
+}
+
+.player-one {
+    background: red;
+}
+
+.player-two {
+    background: yellow;
+}
+
+.restart {
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
